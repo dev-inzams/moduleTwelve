@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#hero{
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Adjust as necessary */
+    color: #fff;
+}
+
+th {
+    width: 25%;
+    text-align: left;
+    background: var(--primary);
+    color: white;
+    padding: 6px 10px;
+}
+
+td {
+    padding: 10px 6px;
+    color: var(--dark);
+}
+input,select{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid var(--dark);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    font-size: 16px;
+    outline: none;
+    margin-bottom: 10px;
+    background-color: gray;
+    color: var(--dark);
+}
+
+input:focus {
+    box-shadow: 0 4px 8px var(--color-white);
+}
+
+button{
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin: auto;
+    background-color: bisque;
+    border: 2px dashed var(--color-primary);
+    color: black;
+}
+button:hover{
+    background-color: bisque;
+    color: black;
+}
+
+
